@@ -42,3 +42,8 @@ hr{
 .sitelink{
     color: red;
 }
+div{
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+}
