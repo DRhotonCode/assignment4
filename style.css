@@ -3,7 +3,8 @@ h1{
     color:black;
     background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2019/02/12101832/apex-legends-world-records-full-list-most-kills-squad-trio-solo-console-pc.jpg);
     border-style: solid ;
-    border-color: red;
+    border-color: rgb(3, 204, 240);
+    font-size: 75px;
 }
 
 body{
@@ -15,7 +16,7 @@ ol{
     color: white;
 }
 a{
-    color: yellowgreen;
+    color: rgb(3, 204, 240);
 }
 h2{
     color: white;
@@ -27,4 +28,17 @@ p{
 
 figcaption{
     color: white;
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+hr{
+    color: white;
+}
+.sitelink{
+    color: red;
 }
