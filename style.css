@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     color:black;
-    background-image: url(https://cdn1.dotesports.com/wp-content/uploads/2019/02/12101832/apex-legends-world-records-full-list-most-kills-squad-trio-solo-console-pc.jpg);
+    background-image: url(https://gamerdiscovery.com/wp-content/uploads/2019/03/Best_Apex_Legends_Wallpapers_Wraith_Mobile_Background_Image.jpg);
     border-style: solid ;
     border-color: rgb(3, 204, 240);
     font-size: 75px;
@@ -11,6 +11,7 @@ h1{
     margin-right: 25px;
     border-radius: 25px 0px 25px 0px;
     box-shadow: 7px 7px purple;
+    text-shadow: 0 0 15px purple;
 }
 #button{
     background-color: black;
@@ -64,7 +65,7 @@ h2{
 #paragraph:hover{
     background-color: black;
     box-shadow: 0 0 5px purple;
-    padding: 2px;
+    padding: 2px; 
 }
 #footer{
     color: white;
@@ -82,12 +83,13 @@ figcaption{
     width: 50%;
 }
 hr{
-    color: white;
+    color: rgb(3, 204, 240);
     margin-left: 75px;
     margin-right: 75px;
     margin-bottom: 25px;
     height: 5px;
-    background-color: black;
+    background-color:black;
+    box-shadow: 0 0 15px purple;
 }
 .sitelink{
     color: red;
