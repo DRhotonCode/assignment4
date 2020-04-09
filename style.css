@@ -10,12 +10,14 @@ h1{
     margin-left: 25px;
     margin-right: 25px;
     border-radius: 25px 0px 25px 0px;
+    box-shadow: 7px 7px purple;
 }
 #button{
     background-color: silver;
     border: black solid;
     color: black;
     font-size: 25px;
+    font-family: 'Girassol', cursive;
     padding: 5px;
     border-radius: 10px 0px 10px 0px;
 }
@@ -25,8 +27,10 @@ h1{
 }
 body{
     background-image: url(https://thumbs.gfycat.com/AnimatedBlackandwhiteCreature-max-1mb.gif);
-    background-size: contain;
-    margin: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul{
@@ -44,9 +48,19 @@ h2{
     color: white;
     margin-left: 75px;
     font-family: 'Girassol', cursive;
+    text-shadow: 0 0 5px purple;
+    font-size: 35px;
 }
-
-p{
+#paragraph{
+    color: white;
+    margin: 25px 200px 75px 200px;
+}
+#paragraph:hover{
+    background-color: black;
+    box-shadow: 0 0 5px red;
+    padding: 2px;
+}
+#footer{
     color: white;
     margin: 25px 200px 75px 200px;
 }
@@ -67,6 +81,7 @@ hr{
     margin-right: 75px;
     margin-bottom: 25px;
     height: 5px;
+    background-color: black;
 }
 .sitelink{
     color: red;
@@ -74,4 +89,7 @@ hr{
 }
 .sitelink:hover{
     color: rgba(0, 255, 21, 0.856);
+}
+img{
+    border: white solid;
 }
