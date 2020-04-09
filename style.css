@@ -13,16 +13,18 @@ h1{
     box-shadow: 7px 7px purple;
 }
 #button{
-    background-color: silver;
+    background-color: black;
     border: black solid;
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: 'Girassol', cursive;
     padding: 5px;
     border-radius: 10px 0px 10px 0px;
+    box-shadow: 0 0 25px purple;
 }
 #button:hover{
     background-color: red;
+    color: black;
     cursor: pointer;
 }
 body{
@@ -32,11 +34,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+li{
+    box-shadow: 0 0 15px purple;
+    margin-right: 990px;
+}
 ul{
     color: white;
     margin-left: 150px;
     cursor: pointer;
+    
 }
 a{
     color: rgb(3, 204, 240);
@@ -57,7 +63,7 @@ h2{
 }
 #paragraph:hover{
     background-color: black;
-    box-shadow: 0 0 5px red;
+    box-shadow: 0 0 5px purple;
     padding: 2px;
 }
 #footer{
@@ -91,5 +97,6 @@ hr{
     color: rgba(0, 255, 21, 0.856);
 }
 img{
-    border: white solid;
+    box-shadow: 0 0 25px purple;
+    border: black solid 2px;
 }
